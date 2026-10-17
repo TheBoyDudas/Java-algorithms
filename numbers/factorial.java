@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// 4! = 4 x 3 x 2 x 1 = 24
+
 public class methodFactorial{
 	public static void main(String [] args)
 	{
