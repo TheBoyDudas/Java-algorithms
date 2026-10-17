@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class TwoPointer {
-    // in-place reversal
     
+    // in-place reversal
     public static void main(String[] args) 
     {
         int arr[] = {8,3,9,15,6,10,7,2,12,4};
