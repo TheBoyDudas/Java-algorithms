@@ -33,11 +33,22 @@ class Solution {
     // if value is less than next value subtract it (IV = 4 instead of 6)
     if (i < s.length()-1 && current < map.get(s.charAt(i + 1))) 
     {
-        total -= current; 
+        total = total - current; 
     }
     else
-      total += current;
+        total = total + current;
     
   }
     return total;
   }
+
+  /* READS 'I'
+   * current = 1
+   * total = 0 - 1
+   * total is now -1
+   *
+   * READS 'V'
+   * current = 5
+   * total = - 1 + 5
+   * total is now 4
+  */
