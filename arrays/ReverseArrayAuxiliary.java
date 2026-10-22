@@ -1,5 +1,6 @@
 public class ReverseArrayAuxiliary {
-    /* This program uses an additional array to reverse the elements of an original array*/
+    /* This program uses an additional array to 
+       reverse the elements of an original array*/
     
     public static void main(String[] args) {
         
