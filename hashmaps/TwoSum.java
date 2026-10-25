@@ -14,19 +14,19 @@ public class TwoSum {
 
 
   public static int[] twoSum(int[] numbers, int target) {
-    HashMap<Integer, Integer> seen = new HashMap<>();
+    HashMap<Integer, Integer> map = new HashMap<>();
 
   for (int i = 0; i < numbers.length; i++) {
       int needed = target - numbers[i];  // gives the remainder needed to hit target
 
       // if we've seen it return its index and our current index
-      if (seen.containsKey(needed)) 
+      if (map.containsKey(needed)) 
       {
-        return new int[] {seen.get(needed), i};
+        return new int[] {map.get(needed), i};
       }
 
     // Store the current number and its index
-    seen.put(numbers[i], i);
+    map.put(numbers[i], i);
   }
     
     return new int[] {}; // return empty array if no pair exists
