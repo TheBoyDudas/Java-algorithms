@@ -17,7 +17,7 @@ public class TwoSum {
     HashMap<Integer, Integer> map = new HashMap<>();
 
   for (int i = 0; i < numbers.length; i++) {
-      int needed = target - numbers[i];  // gives the remainder needed to hit target
+      int needed = target - numbers[i];  // 9 - 2 = 7
 
       // if we've seen it return its index and our current index
       if (map.containsKey(needed)) 
